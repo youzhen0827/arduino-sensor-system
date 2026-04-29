@@ -132,7 +132,7 @@ void runMode2() {
 
   lcdPrintCleanLine(0, 0, "Mode2");
 
-  // 第二行顯示 Position（16字元不夠放完整 Slightly Right/Left）
+  // 第二行顯示 Position
   String show = pos;
 
   if (show == "Slightly Right") show = "S-Right";
